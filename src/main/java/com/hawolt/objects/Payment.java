@@ -8,7 +8,6 @@ public class Payment {
     private Status status;
 
     public Payment(JSONObject o) {
-        System.out.println(o.toString(5));
         this.url = o.getString("url");
         this.paypalKey = o.getString("paypal_pay_key");
         this.id = o.getString("id");
