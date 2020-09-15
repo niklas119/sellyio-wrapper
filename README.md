@@ -1,5 +1,9 @@
 # sellyio-wrapper
 
+Currently only covering:
+- Orders
+- Payments
+
 Usage examples
 
 ```java
